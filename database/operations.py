@@ -40,6 +40,7 @@ def save_excel_data(data_frame):
             crse_attr=row['CRSE_ATTR'],
             masked_id=row['MASKED_ID']
         )
+
         records.append(record)
 
 
