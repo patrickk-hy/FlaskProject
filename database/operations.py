@@ -42,6 +42,7 @@ def save_excel_data(data_frame):
         )
         records.append(record)
 
+
     db.session.bulk_save_objects(records)
     db.session.commit()
 
